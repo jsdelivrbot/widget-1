@@ -1,0 +1,117 @@
+#donation-box{
+    position: relative;
+    overflow: hidden;
+    font-family: Helvetica;
+    color: #858585;
+}
+
+#donation-box:hover .hidden{  
+    right: 0px;
+}
+
+.donation-text {
+	font-size: 13px !important;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.donation-input {
+	background-color: transparent;
+	border: 1px solid #858585;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+#donation-box .hidden {    
+   	background-color: #f2f2f2;
+   	box-shadow: 8px 6px 8px #888888;
+   	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	cursor: pointer;
+	z-index: 9999;
+    height: 230px;    
+    position: fixed; 
+    top: 20%;
+    right: -180px;
+    width: 300px;
+    opacity: 1;    
+    -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+.donation {
+	width:120px; 
+	height:250px; 
+	float-right
+}
+
+.donation-form {
+	width: 180px; 
+	height: 200px; 
+	float:right;
+	margin-top: 10px;
+}
+
+.align-left {
+	text-align: left !important;
+}
+
+.donation-button {
+	width: 92%;
+}
+
+.donation-currency {
+	margin-bottom: 10px;
+}
+/* Donation default button*/
+.donation-button-default {
+	font-weight: bold !important;
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+	padding-left: 7% !important;
+	padding-right: 7% !important;
+}
+
+.donation-inactive {
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px solid #858585;
+	color: #858585
+}
+
+.donation-active {
+	cursor: pointer;
+	background-color: #e52240;
+	color: #FFF;
+	border: 2px solid #e52240;
+}
+
+.button-45 {
+	width: 45%;
+}
+
+.amount {
+	margin-bottom: 10px;
+}
+
+.donation-image {
+	width: 84%;
+	margin-bottom: 8px;
+}
+.donation-block {
+	display: block;
+	text-align: center;
+}
+.donation-message {
+	font-weight: bold;
+	color: #e52240;
+}
+.powered {
+	width: 70%;
+	padding-left: 20%;
+	padding-top: 2%;
+}
