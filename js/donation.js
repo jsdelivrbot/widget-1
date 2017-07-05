@@ -75,6 +75,12 @@
                 alert('Por favor elige un monto mayor a 20 para tu donación');
                 return false;
             } else {
-                window.open('https://www.joinnus.com/donacion/fpc?amount='+ textamount +'&currency=' + currency, '_blank');
+                if(isNaN(textamount) == false) {
+                    window.open('https://www.joinnus.com/donacion/fpc?amount='+ textamount +'&currency=' + currency, '_blank');
+                } else {
+                    alert('Por favor ingresa un monto válido');
+                    return false;
+                }
+
         }
 	};
