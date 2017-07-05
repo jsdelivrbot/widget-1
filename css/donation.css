@@ -1,36 +1,36 @@
 #donation-box{
-    position: relative;
-    overflow: hidden;
-    font-family: Helvetica;
-    color: #858585;
+    position: relative !important;
+    overflow: hidden !important;
+    font-family: Helvetica !important;
+    color: #858585 !important;
 }
 
 #donation-box:hover .hidden{  
-    right: 0px;
+    right: 0px !important;
 }
 
 .donation-text {
 	font-size: 13px !important;
-	font-weight: bold;
-	margin-bottom: 10px;
+	font-weight: bold !important;
+	margin-bottom: 2px !important;
 }
 
 .donation-input {
-	background-color: transparent;
-	border: 1px solid #858585;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-bottom: 10px;
+	background-color: transparent !important;
+	border: 1px solid #858585 !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	margin-bottom: 10px !important;
 }
 
 #donation-box .hidden {    
-   	background-color: #f2f2f2;
+   	background-color: #f2f2f2 !important;
    	box-shadow: 8px 6px 8px #888888;
    	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
 	cursor: pointer;
 	z-index: 9999;
-    height: 230px;    
+    height: 245px;    
     position: fixed; 
     top: 20%;
     right: -180px;
@@ -44,16 +44,15 @@
 }
 
 .donation {
-	width:120px; 
-	height:250px; 
-	float-right
+	width:133px !important; 
+	height:250px !important; 
 }
 
 .donation-form {
-	width: 180px; 
-	height: 200px; 
-	float:right;
-	margin-top: 10px;
+	width: 180px !important; 
+	height: 200px !important; 
+	float:right !important;
+	margin-top: 10px !important;
 }
 
 .align-left {
@@ -65,7 +64,7 @@
 }
 
 .donation-currency {
-	margin-bottom: 10px;
+	margin-bottom: 5px !important;
 }
 /* Donation default button*/
 .donation-button-default {
@@ -74,6 +73,7 @@
 	padding-bottom: 2% !important;
 	padding-left: 7% !important;
 	padding-right: 7% !important;
+	margin-bottom: 5px !important;
 }
 
 .donation-inactive {
@@ -84,23 +84,22 @@
 }
 
 .donation-active {
-	cursor: pointer;
-	background-color: #e52240;
-	color: #FFF;
-	border: 2px solid #e52240;
+	cursor: pointer !important;
+	background-color: #e52240 !important;
+	color: #FFF !important;
+	border: 2px solid #e52240 !important;
 }
 
 .button-45 {
-	width: 45%;
+	width: 45% !important;
 }
 
 .amount {
-	margin-bottom: 10px;
+	margin-bottom: 5px !important;
 }
 
 .donation-image {
-	width: 84%;
-	margin-bottom: 8px;
+	width: 84% !important;
 }
 .donation-block {
 	display: block;
@@ -110,7 +109,7 @@
 	font-weight: bold;
 	color: #e52240;
 }
-.powered {
+.powered_joinnus {
 	width: 70%;
 	padding-left: 20%;
 	padding-top: 2%;
