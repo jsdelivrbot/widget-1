@@ -6,6 +6,10 @@
     color: #858585 !important;
 }
 
+#donation-box input:focus, #donation-box button:focus {
+	outline:none;
+}
+
 #donation-box:hover .donation-hidden{  
     right: 0px !important;
 }
@@ -95,6 +99,7 @@
 .button-45 {
 	width: 45% !important;
 }
+
 
 .amount {
 	margin-bottom: 5px !important;
