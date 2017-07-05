@@ -5,7 +5,7 @@
 	var customamount = 0;
 		var template =  document.createElement('div');
 		template.id='donation-box';
-		template.innerHTML = '<div class="hidden">'+
+		template.innerHTML = '<div class="donation-hidden">'+
             '<div class="donation-form">'+
                 '<label class="donation-block align-left donation-text"><b>Tipo de Moneda</b>'+
                 '</label>'+
@@ -18,7 +18,7 @@
                 '<div class="amount">'+
                     '<button class="button-45 donation-button-default donate-amount donation-inactive">20</button>'+
                     '<button class="button-45 donation-button-default donate-amount donation-inactive">50</button>'+
-                     '<button class="button-45 donation-button-default donate-amount donation-inactive">100</button>'+
+                    '<button class="button-45 donation-button-default donate-amount donation-inactive">100</button>'+
                     '<button class="button-45 donation-button-default donate-amount donation-inactive">500</button>'+
                 '</div>'+
                 '<label class="donation-block align-left donation-text">Otras cantidades</label>'+

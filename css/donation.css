@@ -1,11 +1,12 @@
 #donation-box{
+	font-size: 14px !important;
     position: relative !important;
     overflow: hidden !important;
     font-family: Helvetica !important;
     color: #858585 !important;
 }
 
-#donation-box:hover .hidden{  
+#donation-box:hover .donation-hidden{  
     right: 0px !important;
 }
 
@@ -23,7 +24,7 @@
 	margin-bottom: 10px !important;
 }
 
-#donation-box .hidden {    
+#donation-box .donation-hidden {    
    	background-color: #f2f2f2 !important;
    	box-shadow: 8px 6px 8px #888888;
    	border-bottom-left-radius: 10px;
@@ -33,7 +34,7 @@
     height: 245px;    
     position: fixed; 
     top: 20%;
-    right: -180px;
+    right: -0px;
     width: 300px;
     opacity: 1;    
     -webkit-transition: all 0.7s ease-out;
@@ -77,10 +78,11 @@
 }
 
 .donation-inactive {
-	cursor: pointer;
-	background-color: transparent;
-	border: 1px solid #858585;
-	color: #858585
+	cursor: pointer !important;
+	background-color: transparent !important;
+	border: 1px solid #858585 !important;
+	color: #858585 !important;
+	margin-right: 5px !important;
 }
 
 .donation-active {
@@ -102,15 +104,15 @@
 	width: 84% !important;
 }
 .donation-block {
-	display: block;
+	display: block !important;
 	text-align: center;
 }
 .donation-message {
-	font-weight: bold;
-	color: #e52240;
+	font-weight: bold !important;
+	color: #e52240 !important;
 }
 .powered_joinnus {
-	width: 70%;
-	padding-left: 20%;
-	padding-top: 2%;
+	width: 70% !important;
+	padding-left: 20% !important;
+	padding-top: 2% !important;
 }
