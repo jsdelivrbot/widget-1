@@ -22,7 +22,7 @@
                     '<button class="button-45 donation-button-default donate-amount donation-inactive">500</button>'+
                 '</div>'+
                 '<label class="donation-block align-left donation-text">Otras cantidades</label>'+
-                '<input type="text" id="customamount" class="donation-input" placeholder="Ej: 10">'+
+                '<input type="text" id="customamount" class="donation-input" placeholder="Ej: 75">'+
                 '<button class="donation-button donation-button-default donation-active" id="donate">DONA AQUÍ</button>'+
             '</div>'+
             '<div class="donation" style="">'+
