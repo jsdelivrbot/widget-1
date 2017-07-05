@@ -7,7 +7,7 @@
 }
 
 #donation-box input:focus, #donation-box button:focus {
-	outline:none;
+	outline:none !important;
 }
 
 #donation-box:hover .donation-hidden{  
