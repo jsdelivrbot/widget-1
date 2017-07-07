@@ -1,5 +1,5 @@
 #donation-box{
-	font-size: 12px !important;
+	font-size: 10px !important;
     position: relative !important;
     overflow: hidden !important;
     font-family: Helvetica !important;
@@ -8,6 +8,10 @@
 
 #donation-box input:focus, #donation-box button:focus {
 	outline:none !important;
+}
+
+#donation-box label {
+	font-size: 11px !important;
 }
 
 #donation-box:hover .donation-hidden{  
@@ -23,8 +27,8 @@
 .donation-input {
 	background-color: transparent !important;
 	border: 1px solid #858585 !important;
-	padding-top: 5px !important;
-	padding-bottom: 5px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
 	margin-bottom: 10px !important;
 }
 
@@ -35,11 +39,12 @@
 	border-top-left-radius: 10px;
 	cursor: pointer;
 	z-index: 9999;
-    height: 245px;    
+    height: 185px;    
     position: fixed; 
     top: 20%;
-    right: -180px;
-    width: 300px;
+    /* right: 0px; */
+    right: -160px;
+    width: 275px;
     opacity: 1;    
     -webkit-transition: all 0.7s ease-out;
        -moz-transition: all 0.7s ease-out;
@@ -54,7 +59,7 @@
 }
 
 .donation-form {
-	width: 180px !important; 
+	width: 150px !important; 
 	height: 200px !important; 
 	float:right !important;
 	margin-top: 10px !important;
@@ -68,14 +73,9 @@
 	width: 92%;
 }
 
-.donation-currency {
-	margin-bottom: 5px !important;
-}
 /* Donation default button*/
 .donation-button-default {
 	font-weight: bold !important;
-	padding-top: 2% !important;
-	padding-bottom: 2% !important;
 	padding-left: 7% !important;
 	padding-right: 7% !important;
 	margin-bottom: 5px !important;
@@ -100,13 +100,8 @@
 	width: 45% !important;
 }
 
-
-.amount {
-	margin-bottom: 5px !important;
-}
-
 .donation-image {
-	width: 84% !important;
+	width: 68% !important;
 }
 .donation-block {
 	display: block !important;

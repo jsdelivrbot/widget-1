@@ -1,4 +1,11 @@
 'use strict';
+/*var div = document.createElement("div");
+div.innerHTML = "<!--[if lt IE 9]><i></i><![endif]-->";
+var isIeLessThan9 = (div.getElementsByTagName("i").length == 1);
+if (isIeLessThan9) {
+    alert("WE DON'T LIKE YOUR BROWSER");
+}*/
+
 	var me = this;
 	var currency = 'PEN';
 	var amount = 0;
