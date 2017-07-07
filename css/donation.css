@@ -10,6 +10,13 @@
 	outline:none !important;
 }
 
+#donation-box button {
+	font-weight: bold !important;
+	padding-left: 7% !important;
+	padding-right: 7% !important;
+	margin-bottom: 5px !important;
+}
+
 #donation-box label {
 	font-size: 11px !important;
 }
@@ -39,7 +46,7 @@
 	border-top-left-radius: 10px;
 	cursor: pointer;
 	z-index: 9999;
-    height: 185px;    
+    height: 185px;
     position: fixed; 
     top: 20%;
     /* right: 0px; */
@@ -73,14 +80,6 @@
 	width: 92%;
 }
 
-/* Donation default button*/
-.donation-button-default {
-	font-weight: bold !important;
-	padding-left: 7% !important;
-	padding-right: 7% !important;
-	margin-bottom: 5px !important;
-}
-
 .donation-inactive {
 	cursor: pointer !important;
 	background-color: transparent !important;
@@ -90,6 +89,7 @@
 }
 
 .donation-active {
+	font-size: 10px !important;
 	cursor: pointer !important;
 	background-color: #e52240 !important;
 	color: #FFF !important;
