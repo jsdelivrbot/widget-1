@@ -61,8 +61,8 @@
     height: 185px;
     position: fixed; 
     top: 20%;
-    /* right: -160px; */
-    right: -0px;
+    /* right: 0px; */
+    right: -160px;
     width: 275px;
     opacity: 1;    
     -webkit-transition: all 0.7s ease-out;
