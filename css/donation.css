@@ -6,6 +6,10 @@
     color: #858585 !important;
 }
 
+#donation-box a{
+	text-decoration: none;
+}
+
 #donation-box input:focus, #donation-box button:focus {
 	outline:none !important;
 }
