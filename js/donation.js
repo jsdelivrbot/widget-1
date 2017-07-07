@@ -1,11 +1,4 @@
 'use strict';
-/*var div = document.createElement("div");
-div.innerHTML = "<!--[if lt IE 9]><i></i><![endif]-->";
-var isIeLessThan9 = (div.getElementsByTagName("i").length == 1);
-if (isIeLessThan9) {
-    alert("WE DON'T LIKE YOUR BROWSER");
-}*/
-
 	var me = this;
 	var currency = 'PEN';
 	var amount = 0;
@@ -13,6 +6,7 @@ if (isIeLessThan9) {
 		var template =  document.createElement('div');
 		template.id='donation-box';
 		template.innerHTML = '<div class="donation-hidden">'+
+            '<a class="donation-close-widget" id="donation-close-widget">&times;</a>'+
             '<div class="donation-form">'+
                 '<label class="donation-block align-left donation-text"><b>Tipo de Moneda</b>'+
                 '</label>'+
@@ -40,8 +34,13 @@ if (isIeLessThan9) {
 		document.body.appendChild(template);
 
 
- 	var currencyclass	 = document.getElementsByClassName('donate-currency');
+    var closewidget     = document.getElementById('donation-close-widget');
+ 	var currencyclass	= document.getElementsByClassName('donate-currency');
  	var amountclass 	= document.getElementsByClassName('donate-amount');
+
+    closewidget.onclick = function() {
+        document.getElementById('donation-box').remove();
+    }
 
     for(var i =0; i < currencyclass.length; i++) {
         currencyclass[i].onclick = function() { 
