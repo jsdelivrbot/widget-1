@@ -1,0 +1,152 @@
+#donation-techo-box{
+	font-size: 10px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    font-family: Helvetica !important;
+    color: #858585 !important;
+}
+
+#donation-techo-box a{
+	text-decoration: none;
+}
+
+#donation-techo-box input:focus, #donation-techo-box button:focus {
+	outline:none !important;
+}
+
+#donation-techo-box button {
+	font-weight: bold !important;
+	margin-bottom: 1px !important;
+	font-family: Helvetica !important;
+    font-size: 12px;
+    padding: 1px 6px;
+    font-style: normal !important;
+}
+
+#donation-techo-box label {
+	font-size: 11px !important;
+}
+
+.donation-techo-close-widget {
+	position: absolute; 
+	top: 2px;
+	right: 155px; 
+	font-size: 20px
+}
+
+.donation-techo-text {
+	font-size: 13px !important;
+	font-weight: bold !important;
+	margin-bottom: 2px !important;
+}
+
+.donation-techo-input {
+	background-color: rgba(0, 0, 0, 0)!important;
+    border: 1px solid #858585!important;
+    padding-top: 1px!important;
+    padding-bottom: 1px!important;
+    margin-bottom: 4px!important;
+    width: 133px;
+    height: 16px !important;
+}
+
+#donation-techo-box .donation-techo-hidden {    
+   	background-color: #f2f2f2 !important;
+   	box-shadow: 8px 6px 8px #888888;
+   	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	cursor: pointer;
+	z-index: 9999;
+    height: 185px;
+    position: fixed; 
+    top: 20%;
+    right: -150px;   
+    width: 275px;
+    opacity: 1;    
+    -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+.donation-techo {
+	width:133px !important; 
+	height:250px !important; 
+}
+
+.donation-techo-form {
+	width: 150px; 
+	height: 200px !important; 
+	float:right !important;
+	margin-top: 10px !important;
+}
+
+.align-left {
+	text-align: left !important;
+}
+
+.donation-techo-button {
+	width: 92%;
+}
+
+.donation-techo-inactive {
+	cursor: pointer !important;
+	background-color: transparent !important;
+	border: 1px solid #858585 !important;
+	color: #858585 !important;
+	margin-right: 1px !important;
+}
+
+.donation-techo-active {
+	font-size: 10px !important;
+	cursor: pointer !important;
+	background-color: #e52240 !important;
+	color: #FFF !important;
+	border: 2px solid #e52240 !important;
+}
+
+.button-45 {
+	width: 45% !important;
+}
+
+.donation-techo-image {
+	width: 78% !important;
+}
+.donation-techo-block {
+	display: block !important;
+	text-align: center;
+}
+.donation-techo-message {
+	font-weight: bold !important;
+	color: #0092dd !important;
+	font-size: 14px !important;
+}
+.powered_joinnus {
+	width: 70% !important;
+	padding-left: 20% !important;
+	padding-top: 2% !important;
+	vertical-align: middle !important;
+	height: unset !important;
+}
+
+@media (max-width:768px) {
+	.donation-techo-form {
+		width: 128px !important; 
+	}
+
+	#donation-techo-box .donation-techo-hidden {
+	    height: 166px;
+	    width: 225px;
+	    right: -130px;
+	}
+
+	.donation-techo-input {
+	    width: 118px !important;
+	}
+
+	#donation-techo-box button {
+	    font-size: 11px !important;
+	    padding: 1px 6px !important;
+	}
+}
