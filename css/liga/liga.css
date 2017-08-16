@@ -57,7 +57,7 @@
 	border-top-left-radius: 10px;
 	cursor: pointer;
 	z-index: 9999;
-    height: 185px;
+	height: 178px;    
     position: fixed; 
     top: 20%;
     right: -150px;   
@@ -111,7 +111,7 @@
 }
 
 .donation-liga-image {
-	width: 78% !important;
+	width: 65% !important;
 }
 .donation-liga-block {
 	display: block !important;
@@ -120,7 +120,7 @@
 .donation-liga-message {
 	font-weight: bold !important;
 	color: #C43F39 !important;
-	font-size: 14px !important;
+	font-size: 12px !important;
 }
 .powered_joinnus {
 	width: 70% !important;
@@ -136,8 +136,8 @@
 	}
 
 	#donation-liga-box .donation-liga-hidden {
-	    height: 166px;
-	    width: 225px;
+	    height: 143px;
+	    width: 233px;
 	    right: -130px;
 	}
 
@@ -148,5 +148,15 @@
 	#donation-liga-box button {
 	    font-size: 11px !important;
 	    padding: 1px 6px !important;
+	}
+	.donation-liga {
+		width:110px !important; 
+		height:165px !important; 
+	}
+	.donation-liga-close-widget {
+		position: absolute; 
+		top: -5px;
+		right: 132px; 
+		font-size: 20px
 	}
 }
