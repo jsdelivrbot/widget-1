@@ -8,7 +8,7 @@
         template.innerHTML = '<div class="donation-sonrisa-hidden">' +
         '<a class="donation-sonrisa-close-widget" id="donation-sonrisa-close-widget">&times;</a>'+
         '<div class="donation-sonrisa" id="container" style=""><div class="donation-sonrisa-block">' +
-        '<img class="donation-sonrisa-image" src="https://files.slack.com/files-pri/T39HS0AFQ-F6QVCK3MF/logo---png.png">'+
+        '<img class="donation-sonrisa-image" src="https://s3-us-west-2.amazonaws.com/joinnus.com/content/donacion/operacion-sonrisa-widget.png">'+
         '</div><span class="donation-sonrisa-block donation-sonrisa-message">DONA AQUÍ</span><img class="powered_joinnus" src="https://www.joinnus.com/inc/donation/images/powered.png" alt="">'+
         '</div></div>';
         document.body.appendChild(template);
