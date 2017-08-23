@@ -16,6 +16,7 @@
 		search.innerHTML = '<input type="search" id="txtSearch" class="joinnusSearch" onkeydown="jnMethods.watch(event);"><button id="btnsearch" onclick="jnMethods.search();">Buscar</button>';
 
 		var bindData = function(data) {
+			console.log('inicializando bindeo');
 			//	for(var i=1; i<data.length; i++) {
 			for(var i=1; i<4; i++) {
 				var child = document.createElement('div');
@@ -29,9 +30,12 @@
 		};
 
 		var xhr = new XMLHttpRequest();
+		console.log('inicializando http request');
 		xhr.open('GET', 'https://api.joinnus.com/v1/PE/events?page=1');
 		xhr.onload = function() {
+			console.log('inicializando onload');
 		    if (xhr.status === 200) {
+		    	console.log('data cargada');
 		    	data = JSON.parse(xhr.responseText);
 		    	data = jnMethods.translate(data[0].featured);
 		    	bindData(data);
