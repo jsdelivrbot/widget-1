@@ -14,13 +14,12 @@
 
     var bindData = function(data) {
         var el = document.getElementById('event-content');
-        //  for(var i=1; i<data.length; i++) {
-        for(var i=1; i<4; i++) {
-            var child = document.createElement('div');
-            child.setAttribute('class','jn-events');
-            child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title">' + data[i].title + '</p>'+
-        '<img src="' + data[i].imageUrl+'">'+
-        '</a></article>';
+        	for(var i=1; i<data.length; i++) {
+	            var child = document.createElement('div');
+	            child.setAttribute('class','jn-events');
+	            child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title">' + data[i].title + '<br><span style="text-transform:uppercase">Precios desde: ' + data[i].currency + data[i].price + '</span><button class="jn-buy" style="float:right">Compra ahora</button></p>'+
+		        '<img src="' + data[i].imageUrl+'">'+
+		        '</a></article>';
             el.appendChild(child);
         }
             //$('#event-content').append(search);
@@ -32,7 +31,7 @@
     xhr.onload = function() {
         if (xhr.status === 200) {
             data = JSON.parse(xhr.responseText);
-            data = jnMethods.translate(data[0].featured);
+            data = jnMethods.dataHelper(data[0].featured);
             bindData(data);
         }
         else {
@@ -59,7 +58,7 @@ var watchKey = function(e) {
     }
 };
 
-var categoryTranslator = function(data) {
+var dataHelper = function(data) {
     data.forEach(function(key) {
         switch(key.category) {
             case 'conf-lectures':
@@ -94,6 +93,18 @@ var categoryTranslator = function(data) {
             break;
             default: 'unknown category';                                                        
         }
+
+        switch(key.currency) {
+ 			case 'PEN':
+                key.currency = 'S/. ';
+            break;
+ 			case 'USD':
+                key.currency = '$. ';
+            break;
+ 			case 'EUR':
+                key.currency = '€. ';
+            break;                               	
+        }
     });
     return data;
 }
@@ -101,5 +112,5 @@ var categoryTranslator = function(data) {
 var jnMethods = {
     search: jnSearch,
     watch: watchKey,
-    translate: categoryTranslator
+    dataHelper: dataHelper
 };
