@@ -82,10 +82,6 @@
                 return false;
             } else {
                 var redirect = 'https://www.joinnus.com/donacion/fpc?amount='+ textamount +'&currency=' + currency;
-                alert('link');
-                alert(redirect)
-                alert(textamount);
-                alert(currency);
                 if(isNaN(textamount) == false) {
                     window.open(redirect, '_blank');
                 } else {
