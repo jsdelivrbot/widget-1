@@ -5,11 +5,11 @@
 		border: 1px solid #ddd;
 	}
 	#rppJoinnusWidget>.rppJoinnusHeader>img {
-		width: 100px;
+		width: 220px;
 	}
 
 	.rppJoinnusHeader {
-		background-color: #000;
+		background-color: #191919;
 		padding: 10px;
 		text-align: center;
 	}
