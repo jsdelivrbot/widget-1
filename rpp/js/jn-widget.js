@@ -23,9 +23,10 @@
 			for(var i=1; i<4; i++) {
 				var child = document.createElement('div');
 				child.setAttribute('class','jn-events');
-				child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title">' + data[i].title + '</p>'+
+/*				child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title">' + data[i].title + '</p>'+
 			'<img src="' + data[i].imageUrl+'">'+
-			'</a></article>';
+			'</a></article>';*/
+				child.innerHTML = '<div><div><div><div><div><div><div><div></div></div></div></div></div></div></div></div>';
 				el.appendChild(child);
 			}
 				el.appendChild(search);
