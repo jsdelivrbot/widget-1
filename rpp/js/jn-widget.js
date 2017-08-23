@@ -4,20 +4,20 @@
     var jn_container = document.getElementById('joinnusWidgetContainer');
     var widget = document.createElement('div');
     widget.setAttribute('id', 'rppJoinnusWidget');
-    widget.innerHTML = '<nav class="rppJoinnusHeader"><img src="https://www.joinnus.com/inc/img/logo-header.png" alt=""><span>Tus mejores eventos</span></nav><div id="event-content"></div>';
+    widget.innerHTML = '<nav class="rppJoinnusHeader"><img src="https://www.joinnus.com/inc/img/logo-header.png" alt=""><span></span></nav><div id="event-content"></div>';
     jn_container.appendChild(widget);
     //  Commonly container
     
     var search = document.createElement('div');
     search.setAttribute('class', 'jn-search');
-    search.innerHTML = '<input type="search" id="txtSearch" class="joinnusSearch" onkeydown="jnMethods.watch(event);"><button id="btnsearch" onclick="jnMethods.search();">Buscar</button>';
+    search.innerHTML = '<button id="btnsearch" onclick="jnMethods.search();">Ver más eventos</button>';
 
     var bindData = function(data) {
         var el = document.getElementById('event-content');
         	for(var i=1; i<data.length; i++) {
 	            var child = document.createElement('div');
 	            child.setAttribute('class','jn-events');
-	            child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title">' + data[i].title + '<br><span style="text-transform:uppercase">Precios desde: ' + data[i].currency + data[i].price + '</span><button class="jn-buy" style="float:right">Compra ahora</button></p>'+
+	            child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title">' + data[i].title + '<br><span>Entradas desde: ' + data[i].currency + data[i].price + '</span><button class="jn-buy" style="float:right">Compra ahora</button></p>'+
 		        '<img src="' + data[i].imageUrl+'">'+
 		        '</a></article>';
             el.appendChild(child);
