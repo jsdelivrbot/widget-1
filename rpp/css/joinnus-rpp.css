@@ -1,9 +1,11 @@
 	#rppJoinnusWidget {
-		height: auto;
-		max-width: 450px;
-		min-width: 250px;
-		border-top-right-radius: 10px;
-    	border-top-left-radius: 10px;
+	    height: auto;
+	    max-width: 450px;
+	    min-width: 250px;
+	    border-top-right-radius: 10px;
+	    border-top-left-radius: 10px;
+	    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.095);
+	    background-color: #fff;
 	}
 	#rppJoinnusWidget>.rppJoinnusHeader>img {
 		width: 220px;
@@ -55,14 +57,14 @@
 		padding: 0px 10px 10px 10px;
 	}
 	#btnsearch {
-		width: 100%;
-		background: #42a692;
-    	border: 1px solid #4c4c4c;
-    	border-radius: 6px;
-    	color: #fff;
-    	padding:5px;
-    	font-weight: bold;
-    	text-transform: uppercase;
+	    width: 100%;
+	    background: #42a692;
+	    border-radius: 9px;
+	    color: #fff;
+	    padding: 9px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    margin-top: 10px;
 	}
 	.event-content {
 		margin-top: 20px;
