@@ -16,6 +16,7 @@
 		search.innerHTML = '<input type="search" id="txtSearch" class="joinnusSearch" onkeydown="jnMethods.watch(event);"><button id="btnsearch" onclick="jnMethods.search();">Buscar</button>';
 
 		var bindData = function(data) {
+			console.log(data);
 			console.log('inicializando bindeo');
 			//	for(var i=1; i<data.length; i++) {
 			for(var i=1; i<4; i++) {
