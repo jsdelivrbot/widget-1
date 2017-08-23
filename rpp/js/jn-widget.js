@@ -2,7 +2,8 @@
 		var data = [];
 		//	Commonly container
 		var jn_container = document.getElementById('joinnusWidgetContainer');
-
+		console.log('get jn widget container');
+		console.log(jn_container);
 		var widget = document.createElement('div');
 		widget.setAttribute('id', 'rppJoinnusWidget');
 		widget.innerHTML = '<nav class="rppJoinnusHeader"><img src="https://www.joinnus.com/inc/img/logo-header.png" alt=""><span>Tus mejores eventos</span></nav><div id="event-content"></div>';
