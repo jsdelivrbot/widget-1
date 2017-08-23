@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/joinnus-rpp.css">
-	<title></title>
-</head>
-<body>
-<div id="joinnusWidgetContainer">
-<!-- 	<div id="rppJoinnusWidget">
-		<nav class="rppJoinnusHeader">
-			<img src="https://www.joinnus.com/inc/img/logo-header.png" alt="">
-			<span>Tus mejores eventos</span> 
-		</nav>
-		<div id="event-content"></div>
-	</div>	 -->
-</div>
-
-<script type="text/javascript" src="js/jn-widget.js"></script>
-<script type="text/javascript">
-/*	(function() {
+	(function() {
 		var data = [];
 		//	Commonly container
 		var jn_container = document.getElementById('joinnusWidgetContainer');
@@ -123,7 +103,4 @@
 		search: jnSearch,
 		watch: watchKey,
 		translate: categoryTranslator
-	};*/
-</script>
-</body>
-</html>
+	};
