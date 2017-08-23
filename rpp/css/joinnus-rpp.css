@@ -21,13 +21,16 @@
 	.jn-events {
 		margin-top: 10px;
 		position: relative;
+
 	}
 	.jn-events>article {
 		padding: 6px 10px 0px 10px;
+
 	}
 	.jn-events>article>a>img {
 		width: 100%;
     	border-radius: 5px;
+    	box-shadow: 6px 6px 4px rgba(136, 136, 136, 0.58);
 	}
 	.jn-events>article>a>.title {
 		font-weight: bold;
@@ -88,5 +91,10 @@
 @media(max-width: 320px) {
 	.jn-events>article>a>.title {
 	    width: 86%;
+	    font-size: 10px;
+		letter-spacing: 1px;
+	}
+	.jn-buy {
+		font-size: 10px;
 	}
 }
