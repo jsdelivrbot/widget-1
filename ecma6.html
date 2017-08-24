@@ -7,12 +7,23 @@
 
 
 <script type="text/javascript">
-	var a = 1;
+	var component = (function() {
+		var me = this;
+		me.hola = function() {
+			alert('hola');
+		};
 
-	hiro = (a,b) => {
-		alert(a);
-	};
-	hiro(1);
+
+		return {
+			saludar: me.hola
+		};
+
+	})();	
+
+
+
+
+	component.saludar();
 </script>
 </body>
 </html>
