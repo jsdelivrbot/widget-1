@@ -45,17 +45,18 @@
 })();
 
 var jnSearch = function() {
-    var text = document.getElementById('txtSearch').value;
-    var redirect = 'https://www.joinnus.com/searchc/PE?q=' + text;
-    if(text.length == 0) {
+    //  var text = document.getElementById('txtSearch').value;
+    //  var redirect = 'https://www.joinnus.com/searchc/PE?q=' + text;
+    /*if(text.length == 0) {
         redirect = 'https://www.joinnus.com';
-    }
+    }*/
+    var redirect = 'https://www.joinnus.com';
     window.open(redirect, '_blank');
 };
 
 var watchKey = function(e) {
     if(e.keyCode == 13) {
-        jnSearch();
+        jnMethods.search();
     }
 };
 
