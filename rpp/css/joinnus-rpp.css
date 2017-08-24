@@ -19,6 +19,7 @@
 		text-align: center;
 	}
 
+
 	.rppJoinnusHeader>span {
 		color: #42a692;
 		font-family: arial;
@@ -38,16 +39,19 @@
     	border-radius: 5px;
     	box-shadow: 6px 6px 4px rgba(136, 136, 136, 0.58);
 	}
+	
 	.jn-events>article>a>.title {
-		font-weight: bold;
-		font-family: arial;
-		position: absolute;
-		bottom: -10px;
-		color: #fff;
-		font-size: 14px;
-		background-color: rgba(0, 0, 0, 0.8);
-		padding: 10px 10px 10px 10px;
-		width: 96%;
+	    font-weight: bold;
+	    font-family: arial;
+	    position: absolute;
+	    bottom: 0px;
+	    color: #fff;
+	    font-size: 14px;
+	    background-color: rgba(0, 0, 0, 0.8);
+	    padding: 10px 10px 10px 10px;
+	    width: 96%;
+	    margin: 0;
+	    box-sizing: border-box;
 	}
 	.joinnusSearch {
 		width: 100%;

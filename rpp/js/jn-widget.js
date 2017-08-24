@@ -4,7 +4,7 @@
     var jn_container = document.getElementById('joinnusWidgetContainer');
     var widget = document.createElement('div');
     widget.setAttribute('id', 'rppJoinnusWidget');
-    widget.innerHTML = '<nav class="rppJoinnusHeader"><img src="https://files.slack.com/files-pri/T39HS0AFQ-F6SAYQ2G1/widget---joinnus---ai.png" alt=""><span></span></nav><div id="event-content"></div>';
+    widget.innerHTML = '<nav class="rppJoinnusHeader"><img src="https://s3-us-west-2.amazonaws.com/joinnus.com/content/api/api-rpp.png" alt=""><span></span></nav><div id="event-content"></div>';
     jn_container.appendChild(widget);
     //  Commonly container
     
