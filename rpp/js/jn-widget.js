@@ -18,7 +18,7 @@
         	for(var i=1; i<4; i++) {
 	            var child = document.createElement('div');
 	            child.setAttribute('class','jn-events');
-	            child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title"><span style="position: relative; top: 6px;">Entradas desde: ' + data[i].currency + data[i].price + '</span><button class="jn-buy" style="float:right">Compra ahora</button></p>'+
+	            child.innerHTML = '<article><a href="https://www.joinnus.com/PE/'+ data[i].category +'/' + data[i].url + '-' + data[i].id +'" target="_blank"><p class="title"><span style="position: relative; top: 8px; font-size: 12px; float: left;">Entradas desde: ' + data[i].currency + data[i].price + '</span><button class="jn-buy" style="float:right">Compra ahora</button></p>'+
 		        '<img src="' + data[i].imageUrl+'">'+
 		        '</a></article>';
             el.appendChild(child);

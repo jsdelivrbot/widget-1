@@ -11,7 +11,7 @@
 		width: 220px;
 	}
 
-	.rppJoinnusHeader {
+	#rppJoinnusWidget>.rppJoinnusHeader {
 		border-top-right-radius: 10px;
     	border-top-left-radius: 10px;
 		background-color: #191919;
@@ -20,27 +20,27 @@
 	}
 
 
-	.rppJoinnusHeader>span {
+	#rppJoinnusWidget>.rppJoinnusHeader>span {
 		color: #42a692;
 		font-family: arial;
 		font-size: 12px;
 	}
-	.jn-events {
+	#event-content>.jn-events {
 		margin-top: 10px;
 		position: relative;
 
 	}
-	.jn-events>article {
+	#event-content>.jn-events>article {
 		padding: 6px 10px 0px 10px;
 
 	}
-	.jn-events>article>a>img {
+	#event-content>.jn-events>article>a>img {
 		width: 100%;
     	border-radius: 5px;
     	box-shadow: 6px 6px 4px rgba(136, 136, 136, 0.58);
 	}
 	
-	.jn-events>article>a>.title {
+	#event-content>.jn-events>article>a>.title {
 	    font-weight: bold;
 	    font-family: arial;
 	    position: absolute;
@@ -49,7 +49,7 @@
 	    font-size: 14px;
 	    background-color: rgba(0, 0, 0, 0.8);
 	    padding: 10px 10px 10px 10px;
-	    width: 96%;
+	    width: 93.5%;
 	    margin: 0;
 	    box-sizing: border-box;
 	}
@@ -60,7 +60,7 @@
 	.jn-search {
 		padding: 0px 10px 10px 10px;
 	}
-	#btnsearch {
+	.jn-search>#btnsearch {
 	    width: 100%;
 	    background: #42a692;
 	    border-radius: 9px;
@@ -69,9 +69,6 @@
 	    font-weight: bold;
 	    text-transform: uppercase;
 	    margin-top: 10px;
-	}
-	.event-content {
-		margin-top: 20px;
 	}
 	.jn-search>input[type="search"] {
 		padding: 10px;
@@ -87,7 +84,7 @@
 
 	.jn-buy {
 		background-color: #e83924;
-	    padding: 5px 15px 5px 15px;
+	    padding: 8px 14px 8px 14px;
 	    cursor: pointer;
 	    color: #fff;
 	    font-weight: bold;
@@ -95,6 +92,7 @@
 	    border: none;
 	    border-radius: 3px;
 	    text-transform: uppercase;
+	    font-size: 10px;
 	}
 
 

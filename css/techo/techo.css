@@ -57,11 +57,11 @@
 	border-top-left-radius: 10px;
 	cursor: pointer;
 	z-index: 9999;
-    height: 185px;
+    height: 152px;
     position: fixed; 
     top: 20%;
     right: -150px;   
-    width: 275px;
+    width: 250px;
     opacity: 1;    
     -webkit-transition: all 0.7s ease-out;
        -moz-transition: all 0.7s ease-out;
@@ -71,8 +71,8 @@
 }
 
 .donation-techo {
-	width:133px !important; 
-	height:250px !important; 
+	width:105px !important; 
+	height:auto; 
 }
 
 .donation-techo-form {
@@ -120,14 +120,14 @@
 .donation-techo-message {
 	font-weight: bold !important;
 	color: #0092dd !important;
-	font-size: 14px !important;
+	font-size: 12px !important;
 }
 .powered_joinnus {
 	width: 70% !important;
-	padding-left: 20% !important;
 	padding-top: 2% !important;
 	vertical-align: middle !important;
 	height: unset !important;
+	float: right;
 }
 
 @media (max-width:768px) {
