@@ -137,7 +137,7 @@
 
 	#donation-techo-box .donation-techo-hidden {
 	    height: 166px;
-	    width: 225px;
+	    width: 232px;
 	    right: -130px;
 	}
 
@@ -149,4 +149,20 @@
 	    font-size: 11px !important;
 	    padding: 1px 6px !important;
 	}
+
+	.donation-techo-close-widget {
+		position: absolute; 
+		top: 2px;
+		right: 135px; 
+		font-size: 20px
+	}
+
+	.powered_joinnus {
+		width: 70% !important;
+		padding-top: 2% !important;
+		vertical-align: middle !important;
+		height: unset !important;
+		float: right;
+	}
+
 }

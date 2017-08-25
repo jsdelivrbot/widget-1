@@ -6,24 +6,21 @@
 <body>
 
 
+
 <script type="text/javascript">
-	var component = (function() {
-		var me = this;
-		me.hola = function() {
-			alert('hola');
-		};
-
-
-		return {
-			saludar: me.hola
-		};
-
-	})();	
-
-
-
-
-	component.saludar();
+	var data = [{'nombre':'hiro'}, {'nombre':'eduardo'}, {'nombre':'yoshio'}, {'nombre':'palacios'}, {'nombre':'ponce'}, {'nombre':'sakihama'}];
+	var result;
+	var newArray = [];
+	var count = 0;
+		for(var i=0; i<3; i++) {
+		    for (var prop in data)
+		        if (Math.random() < 1/++count)
+		        	result = prop;
+		        	newArray.push(data[result]);
+		        	data.splice(result, 1);
+		}	
+		console.log(newArray);
+		console.log(data);
 </script>
 </body>
 </html>
