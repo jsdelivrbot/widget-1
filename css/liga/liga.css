@@ -57,11 +57,11 @@
 	border-top-left-radius: 10px;
 	cursor: pointer;
 	z-index: 9999;
-	height: 178px;    
+    height: 142px;
     position: fixed; 
     top: 20%;
     right: -150px;   
-    width: 275px;
+    width: 250px;
     opacity: 1;    
     -webkit-transition: all 0.7s ease-out;
        -moz-transition: all 0.7s ease-out;
@@ -71,7 +71,7 @@
 }
 
 .donation-liga {
-	width:133px !important; 
+	width:105px !important; 
 	height:auto; 
 }
 
@@ -111,7 +111,7 @@
 }
 
 .donation-liga-image {
-	width: 65% !important;
+	width: 67% !important;
 }
 .donation-liga-block {
 	display: block !important;
@@ -119,15 +119,15 @@
 }
 .donation-liga-message {
 	font-weight: bold !important;
-	color: #C43F39 !important;
-	font-size: 12px !important;
+	color: #C03 !important;
+	font-size: 11px !important;
 }
 .powered_joinnus {
 	width: 70% !important;
-	padding-left: 20% !important;
 	padding-top: 2% !important;
 	vertical-align: middle !important;
 	height: unset !important;
+	float: right;
 }
 
 @media (max-width:768px) {
@@ -136,8 +136,8 @@
 	}
 
 	#donation-liga-box .donation-liga-hidden {
-	    height: 143px;
-	    width: 233px;
+	    height: 166px;
+	    width: 232px;
 	    right: -130px;
 	}
 
@@ -149,14 +149,20 @@
 	    font-size: 11px !important;
 	    padding: 1px 6px !important;
 	}
-	.donation-liga {
-		width:110px !important; 
-		height:165px !important; 
-	}
+
 	.donation-liga-close-widget {
 		position: absolute; 
-		top: -5px;
-		right: 132px; 
+		top: 2px;
+		right: 135px; 
 		font-size: 20px
 	}
+
+	.powered_joinnus {
+		width: 70% !important;
+		padding-top: 2% !important;
+		vertical-align: middle !important;
+		height: unset !important;
+		float: right;
+	}
+
 }
