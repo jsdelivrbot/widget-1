@@ -110,13 +110,15 @@
 	width: 45% !important;
 }
 
-.donation-liga-image {
-	width: 67% !important;
-}
-.donation-liga-block {
+.donation-liga div, .donation-liga span{
 	display: block !important;
 	text-align: center;
 }
+
+.donation-liga-block img{
+	width: 67% !important;
+}
+
 .donation-liga-message {
 	font-weight: bold !important;
 	color: #C03 !important;
